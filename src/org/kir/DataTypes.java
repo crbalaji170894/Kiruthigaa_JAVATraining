@@ -17,6 +17,9 @@ public class DataTypes {
 		boolean bool = true;
 
 		float f = 123.4567f;
+		
+		
+		double d = 123.98099909;
 
 		System.out.println(b);
 
@@ -30,7 +33,7 @@ public class DataTypes {
 
 		System.out.println(bool);
 
-		System.out.println(f);
+		System.out.println(d);
 	}
 
 }
