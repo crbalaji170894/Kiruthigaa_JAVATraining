@@ -3,17 +3,39 @@ package org.kir;
 public class StringTest {
 
 	public static void main(String[] args) {
-		String s1 = "welcome";
 
-		String s2 = "WELCOME";
+		String s1 = "Test JAVA";
 		
-		boolean equals = s1.equals(s2);
+		String s2 ="To Class";
 		
-		boolean equalsIgnoreCase = s1.equalsIgnoreCase(s2);
+		System.out.println(s1.concat(s2));
+		//String substring = s1.substring(5, 9);
 		
-		System.out.println(equals);
+//		String substring = s1.substring(5);
+//		
+//		System.out.println(substring);
 		
-		System.out.println(equalsIgnoreCase);
+		String replace = s1.replace('A', 'a');
+		
+		String replace2 = s1.replace("Test", "TEST");
+		
+		System.out.println(replace);
+		
+		System.out.println(replace2);
+
+//		String s1 = "welcome";
+//
+//		String s2 = "WELCOME";
+//		
+//		boolean equals = s1.equals(s2);
+//		
+//		boolean equalsIgnoreCase = s1.equalsIgnoreCase(s2);
+//		
+//		System.out.println(equals);
+//		
+//		System.out.println(equalsIgnoreCase);
+//		
+
 //		int length = s1.length();
 //
 //		System.out.println(length);
@@ -33,8 +55,8 @@ public class StringTest {
 //		String upperCase = s1.toUpperCase();
 //		
 //		System.out.println(upperCase);
-
-		String url = "https://www.google.com/";
+//
+//		String url = "https://www.google.com/";
 
 //		if(url.startsWith("https://"))
 //		{
