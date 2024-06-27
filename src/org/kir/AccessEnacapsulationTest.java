@@ -3,13 +3,21 @@ package org.kir;
 public class AccessEnacapsulationTest {
 
 	public static void main(String[] args) {
-		EncapsulationClassTest enobject = new EncapsulationClassTest();
-
-	   enobject.setRollno(101);
+//		EncapsulationClassTest enobject = new EncapsulationClassTest();
+//
+//	   enobject.setRollno(101);
+//	   
+//	   int rollno = enobject.getRollno();
+//	   
+//	   System.out.println(rollno);
 	   
-	   int rollno = enobject.getRollno();
+	   StaticKeywordTest.methodA();
 	   
-	   System.out.println(rollno);
+	   StaticKeywordTest.methodB();
+	   
+	   StaticKeywordTest.main(args);
+	  
+	   
 	   
 
 	}

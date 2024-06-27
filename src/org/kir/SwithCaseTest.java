@@ -21,6 +21,7 @@ public class SwithCaseTest {
 		
 		case "Test4": 
 		System.out.println("Fourth Case");
+		
 		break;
 		
 		default:
