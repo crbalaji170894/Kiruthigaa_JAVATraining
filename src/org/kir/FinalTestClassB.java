@@ -1,9 +1,13 @@
 package org.kir;
 
-public class FinalTestClassB {
+public class FinalTestClassB extends FinalClassTestA{
 
+	public  void methodA() {
+		this.a = 30;
+	}
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 
 	}
 
